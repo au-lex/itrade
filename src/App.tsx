@@ -11,6 +11,8 @@ import ComingSoon from "./componets/ui/ComingSoon";
 import Login from "./pages/auth/login/Login";
 import Signup from "./pages/auth/sigup/Signup";
 import DashOverview from "./pages/dashboard/DashOverview";
+import MarketDashboard from "./pages/market/MarketDashboard";
+import MarketOverview from "./pages/market/MarketOverview";
 
 
 
@@ -21,6 +23,7 @@ const router = createBrowserRouter([
       { path: "/", element: <Login /> },
       { path: "/signup", element: <Signup /> },
       { path: "/dashboard", element: <DashOverview /> },
+      { path: "/market", element: <MarketOverview /> },
 
     
 

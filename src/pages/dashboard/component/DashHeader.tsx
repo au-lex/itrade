@@ -50,7 +50,7 @@ const USER = {
 const iconButton =
   "flex h-11 w-11 shrink-0 items-center justify-center rounded-full  text-gray-900 transition hover:bg-gray-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 sm:h-[52px] sm:w-[52px]";
 
-export default function Navbar() {
+export default function DashboardNav() {
   const [active, setActive] = useState<string>("Dashboard");
   const [mobileOpen, setMobileOpen] = useState<boolean>(false);
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
